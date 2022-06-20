@@ -5,10 +5,11 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import mondok from './Asset/ayomondok.png'
 
 const navigation = [
-  { name: 'Home', href: '/', current: true },
+  { name: 'Home', href: '/', current: false },
   { name: 'Pantau', href: 'Pantau', current: false },
-  { name: 'Cek-in', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Penghubung', href: 'Penghubung', current: false },
+  { name: 'API', href: 'API', current: false },
+  { name: 'penulis', href: 'Penulis', current: false },
 ]
 
 function classNames(...classes) {

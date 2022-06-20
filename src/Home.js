@@ -8,6 +8,12 @@ export default function Example() {
     return (
         <>
         <Navbar/>
+        {/* Header Main */}
+        <header className="bg-white shadow">
+          <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <h1 className="text-3xl font-bold text-gray-900">Home</h1>
+          </div>
+        </header>
       <div className="relative bg-gray-100 overflow-hidden">
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 sm:static">
